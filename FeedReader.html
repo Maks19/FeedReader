@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+  <title>FeedReader</title>
+</head>
+<body>
+
+<input type="checkbox" id="hmt" class="hidden-menu-ticker">
+<label class="btn-menu" for="hmt">
+  <span class="first"></span>
+  <span class="second"></span>
+  <span class="third"></span>
+</label>
+<ul class="hidden-menu">
+  <p id="categories">Categories:</p>
+  <li><input type="checkbox" id="sport"><span id="sport1">Sport</span></li>
+  <li><input type="checkbox" id="business"><span id="business1">Business</span></li>
+  <li><input type="checkbox" id="nature"><span id="nature1">Nature</span></li>
+  <li><input type="checkbox" id="science"><span id="science1">Science</span></li>
+  <li><input type="checkbox" id="ukraine"><span id="ukraine1">Ukraine</span></li>
+</ul>
+
+<header name="top">
+  <h1 id="navh1">News</h1>
+  <nav><a class="img" href="https://www.bbc.com/ukrainian"><img src="img/bbc.png" width="100" height="100"></a><a class="img" href="https://24tv.ua/"><img src="img/24.png" width="100" height="100"></a><a class="img" href="https://ua.korrespondent.net/"><img src="img/Корреспондетн.png" width="100" height="100"></a><a class="img" href="https://maximum.fm/"><img src="img/Максимум.png" width="100" height="100"></a></nav>
+</header>
+
+  <div id="newsArticle">
+  </div>
+  <template id="template-article">
+    <div class="mainDiv">
+      <a target="_blank">
+        <img  class="picture">
+        <h1></h1>
+        <h2></h2>
+        <h4></h4>
+        <h5></h5>
+      </a>
+    </div>
+  </template>
+<a href="#top" class="arrow" title="Вверх"><div id="back-top">&#8657</div></a>
+</body>
+</html>
